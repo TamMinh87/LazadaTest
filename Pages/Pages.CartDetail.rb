@@ -12,7 +12,7 @@ module Pages
       end
 
       def get_product_price(index = 0)
-        product_price[index/4].text
+        product_price[index*4].text
       end
 
       def get_product_sub_total_price(index = 0)
